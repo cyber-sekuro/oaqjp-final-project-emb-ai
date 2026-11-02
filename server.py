@@ -20,7 +20,7 @@ def emotion_detector_application():
 
     text_to_analyze = request.args.get("textToAnalyze")
 
-    
+
     response = emotion_detector(text_to_analyze)
 
     # Display the required error message for invalid input
