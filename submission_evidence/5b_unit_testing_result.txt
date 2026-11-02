@@ -1,0 +1,15 @@
+test_anger (__main__.TestEmotionDetection)
+Test anger detection. ... ok
+test_disgust (__main__.TestEmotionDetection)
+Test disgust detection. ... ok
+test_fear (__main__.TestEmotionDetection)
+Test fear detection. ... ok
+test_joy (__main__.TestEmotionDetection)
+Test joy detection. ... ok
+test_sadness (__main__.TestEmotionDetection)
+Test sadness detection. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.609s
+
+OK
