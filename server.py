@@ -20,9 +20,15 @@ def emotion_detector_application():
 
     text_to_analyze = request.args.get("textToAnalyze")
 
+    
     response = emotion_detector(text_to_analyze)
 
+    # Display the required error message for invalid input
+    if response["dominant_emotion"] is None:
+        return "Invalid text! Please try again!"
+
     anger = response["anger"]
+
     disgust = response["disgust"]
     fear = response["fear"]
     joy = response["joy"]
